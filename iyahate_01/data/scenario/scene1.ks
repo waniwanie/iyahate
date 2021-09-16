@@ -57,7 +57,7 @@
 [mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#虫を捕まえたども
+#虫を捕まえた子ども
 「ねぇねぇおじさん！」[p]
 
 [_tb_end_text]
