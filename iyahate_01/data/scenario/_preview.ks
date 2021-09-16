@@ -3,9 +3,81 @@
 [mask time=10]
 [bg  time="10"  method="crossfade"  storage="AMEMAN17826012_TP_V_.png"  ]
 [tb_show_message_window] 
-[chara_mod  name="高野さん"  time="10"  cross="true"  storage="chara/4/kouya_layer_0002.png"  ]
-[chara_mod  name="源五郎"  time="10"  cross="true"  storage="chara/3/gengoro_layer_0004.png"  ]
 [mask_off time=10]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#虫を捕まえた子ども
+「ねぇねぇおじさん！」[p]
+
+[_tb_end_text]
+
+[chara_show  name="高野さん"  time="1000"  wait="true"  storage="chara/4/kouya_layer_0000.png"  width="512"  height="638"  left="208"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#???
+「おじさん？はて、誰のことか」[p]
+#虫を捕まえた子ども
+「おじさんは、おじさんのことだよ？[r]ねぇこの虫、知ってる？」[p]
+[_tb_end_text]
+
+[chara_mod  name="高野さん"  time="600"  cross="true"  storage="chara/4/kouya_layer_0001.png"  ]
+[tb_start_text mode=1 ]
+#???
+「……今の子は我々の名前も知らぬのか、呆れた話だ」[p]
+
+[_tb_end_text]
+
+[chara_show  name="源五郎"  time="1000"  wait="true"  storage="chara/3/gengoro_layer_0000.png"  width="461"  height="576"  ]
+[tb_start_text mode=1 ]
+#???
+「ったく、おめえらは誰に向かって口聞いてるんだよ！」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#虫を手にした子ども
+「へ？おっさんの名前聞いたわけじゃないんだけど……」[p]
+#ゆうたと呼ばれた子ども
+「……しょうた、ヤバいよ！この人たち普通の人じゃない！」[p]
+#しょうたと呼ばれた子ども
+「え、別に普通のお坊さんじゃないの？」[p]
+[_tb_end_text]
+
+[chara_mod  name="高野さん"  time="600"  cross="true"  storage="chara/4/kouya_layer_0002.png"  ]
+[tb_start_text mode=1 ]
+#???
+「話が早い。源五郎、[ruby text="おのれ"]己の名前をもってこの[ruby text="こわ"]小[ruby text="っぱ"]童共に教えてやりなさい」[p]
+[_tb_end_text]
+
+[chara_mod  name="源五郎"  time="600"  cross="true"  storage="chara/3/gengoro_layer_0003.png"  ]
+[tb_start_text mode=1 ]
+#源五郎
+「へへっ、お安い御用で！[r]おいガキども、[ruby text="こう"]高[ruby text="や"]野様を怒らせた罰は重いぞ？」[p]
+#ゆうたと呼ばれた子ども
+「え？バツ？俺たちはこの虫の名前を尋ねただけだぞ？」[p]
+#しょうたと呼ばれた子ども
+「だからちげーよゆうた！まだ気づいてないのかよ！こいつは人間じゃない、こいつらは……」[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[layermode  mode="multiply"  color="0xeb3434"  time="1000"  wait="true"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+「怪異だ！」[p]
+#ゆうたと呼ばれた子ども
+「マジかよ！……や、やべえ、逃げろ！」[p]
+[_tb_end_text]
+
+[chara_mod  name="源五郎"  time="600"  cross="true"  storage="chara/3/gengoro_layer_0004.png"  ]
+[tb_start_text mode=1 ]
+#源五郎
+「待ちやがれ！消えゆく貴重な虫の名前も知らないなんて、罰当たりにも程がある！[r]この源五郎が直々に教えてやろう！」[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [free_layermode  time="1000"  wait="true"  ]
 [tb_show_message_window  ]
 [tb_image_show  time="1000"  storage="default/イラスト.png"  width="983"  height="781"  x="-3"  y="-34"  _clickable_img=""  ]
